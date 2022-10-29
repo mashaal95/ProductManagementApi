@@ -8,6 +8,6 @@ namespace ProductManagementApi.Models
 
         public string? Type {get; set;}
 
-        public string? Active {get; set;}
+        public bool Active {get; set;}
     }
 }
